@@ -1,0 +1,67 @@
+.room {
+
+    margin: 15px;
+    background-color: #fff;
+}
+
+
+@media screen and (min-width: 900px) {
+    .room {
+     width: calc((100% - 60px) / 2);
+    }
+ 
+     
+ } 
+
+@media screen and (min-width: 1100px) {
+   .room {
+    width: calc((100% - 90px) / 3);
+   }
+
+    
+} 
+
+.image-contain {
+    overflow: hidden;
+}
+
+
+.image-contain img {
+    width: 100%;
+    transition: transform 0.3s;
+}
+
+.image-contain img:hover {
+    filter: brightness(80%);
+    transform: scale(1.1);
+}
+
+.room-information {
+
+    padding: 20px 40px;
+    font-family: "shabnam";
+}
+
+.room-info-title {
+    font-size: 24px;
+    text-align: right;
+   
+   
+} 
+
+.room-information div:nth-child(2) {
+    font-size: 15px;
+    text-align: right;
+    color: #bdbdbd;
+    padding: 15px 0 0;
+    
+   
+}
+
+.room-information p {
+    color: #535353;
+    text-align: justify;
+    font-size: 17px;
+    line-height: 30px;
+
+}

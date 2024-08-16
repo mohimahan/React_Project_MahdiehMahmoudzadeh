@@ -1,0 +1,1919 @@
+@font-face {
+    font-family: 'shabnam';
+    src: url('../fonts/shabnam-500.eot?#')format('eot'),
+        url('../fonts/shabnam-500.ttf')format('truetype'),
+        url('../fonts/shabnam-500.woff')format('woff'),
+        url('../fonts/shabnam-500.woff2')format('woff2');
+
+}
+
+.navbar-container {
+    position: absolute;
+    width: 100%;
+    top: 0;
+    background: linear-gradient(rgb(20, 20, 20) 20%, rgba(20, 20, 20, 0.3))
+}
+
+
+.up {
+    height: 130px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #807979;
+    padding: 10px;
+
+
+}
+
+.phone-email {
+    display: flex;
+    list-style: none;
+    font-size: 14px;
+    margin: 0;
+    color: #e6cb72;
+
+
+}
+
+.phone {
+    width: 110px;
+    padding: 5px 0;
+    font-family: "shabnam";
+    border-right: 1px solid #807979;
+
+
+}
+
+.email {
+    font-family: "shabnam";
+    padding: 5px 0 5px 25px;
+
+}
+
+.hotel-title {
+    margin-left: auto;
+    padding-right: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: #e6cb72;
+
+}
+
+
+
+.hotel-name {
+    font-size: 50px;
+
+}
+
+@media screen and (max-width: 1200px) {
+    .hotel-name {
+        font-size: 30px;
+
+    }
+
+    .up {
+        height: 100px;
+    }
+}
+
+
+
+.star-img {
+    width: 20px;
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+    font-family: "shabnam";
+}
+
+ul {
+    display: flex;
+    list-style: none;
+}
+
+
+@media screen and (max-width: 1000px) {
+    ul {
+        margin: 0 5px;
+    }
+
+}
+
+.nav li {
+    margin-right: 25px;
+    cursor: pointer;
+
+
+}
+
+
+.link {
+    text-decoration: none;
+    color: #e6cb72;
+
+}
+
+.link:hover {
+    color: rgb(255, 255, 182);
+
+
+}
+
+
+/* header--------------------------------------------------------------------------------------------- */
+
+
+.img-box {
+    width: 100%;
+    aspect-ratio: 1349/645;
+    display: flex;
+    position: relative;
+    overflow: hidden;
+
+}
+
+.btn-up {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: calc(50% - 20px);
+    left: calc(100% - 60px);
+    font-size: 20px;
+    box-sizing: border-box;
+    padding: 10px 15px;
+    border-radius: 50%;
+    color: #fff;
+    background-color: #ffcba4cb;
+
+}
+
+.btn-up:hover {
+    background-color: #ffcba4;
+    transition: all 0.3s;
+}
+
+.btn-down {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: calc(50% - 20px);
+    left: 20px;
+    font-size: 20px;
+    box-sizing: border-box;
+    padding: 10px;
+    color: #fff;
+    border-radius: 50%;
+    background-color: #ffcba4cb;
+
+}
+
+.btn-down:hover {
+    background-color: #ffcba4;
+    transition: all 0.3s;
+}
+
+
+.img {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+
+}
+
+.transition {
+    transition: all 0.3s;
+}
+
+.right {
+    top: 0;
+    left: 100%;
+}
+
+.center {
+    top: 0;
+    left: 0;
+}
+
+.left {
+    top: 0;
+    left: -100%;
+}
+
+.opacity0 {
+    opacity: 0;
+}
+
+.opacity1 {
+    opacity: 1;
+}
+
+.header-transition {
+    transition: all 3s;
+}
+
+/* search-------------------------------------------------------------------------- */
+
+.search {
+    display: flex;
+    background-color: #ffcba4b9;
+    font-family: "shabnam";
+    text-align: center;
+}
+
+.search-form {
+    display: flex;
+    position: relative;
+    margin: auto;
+    padding: 14px 32px;
+    background-color: #362e2e;
+    border-radius: 5px;
+
+}
+
+
+@media screen and (max-width: 1100px) {
+    .search-form {
+        padding: 5px 32px;
+    }
+
+}
+
+.search-form ul {
+    padding: 0;
+    margin: 0;
+}
+
+.search-form li {
+    padding: 5px 0;
+    margin: 0;
+}
+
+
+
+.check-in {
+    width: 190px;
+    border-left: 1px solid silver;
+
+}
+
+.check-in:hover {
+    cursor: pointer;
+}
+
+.check-in span {
+    color: #e6cb72;
+
+}
+
+.check-in input {
+    width: 100%;
+    height: 35px;
+    text-align: center;
+    background-color: #362e2e;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    padding: 0;
+    border: none;
+    color: #fff;
+    outline: none;
+}
+
+.check-in input:hover {
+    cursor: pointer;
+}
+
+.check-out {
+    width: 190px;
+
+}
+
+.check-out:hover {
+    cursor: pointer;
+}
+
+.check-out input {
+    width: 100%;
+    height: 35px;
+    text-align: center;
+    background-color: #362e2e;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    padding: 0;
+    border: none;
+    color: #fff;
+    outline: none;
+}
+
+.check-out input:hover {
+    cursor: pointer;
+}
+
+.check-out span {
+    color: #e6cb72;
+
+}
+
+.search-link {
+    font-family: "shabnam";
+    box-sizing: content-box;
+    align-self: center;
+    font-size: 16px;
+    padding: 8px 20px;
+    border: none;
+    background-color: #ffcba4;
+    color: #1d1a1a;
+    line-height: 30px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.calendar {
+    position: absolute;
+    top: -270px;
+    left: 200px;
+}
+
+.display1 {
+    display: none;
+}
+
+.display2 {
+    display: block;
+}
+
+/*section1-----------------------------------------------------------------  */
+
+.section1 {
+    display: flex;
+    padding: 100px 30px;
+    font-family: "shabnam";
+}
+
+
+
+.section1-right {
+    width: 50%;
+}
+
+.sub-title {
+    font-size: 24px;
+    font-weight: 800;
+    margin: 50px 35px 6px;
+}
+
+
+@media screen and (max-width: 800px) {
+    .section1 {
+        padding: 70px 30px;
+    }
+
+    .sub-title {
+        margin-top: 20px;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .section1 {
+        padding: 70px 30px;
+    }
+
+    .sub-title {
+        margin-top: 10px;
+    }
+}
+
+.section1-right h2 {
+    margin: 0 35px;
+    color: #CEA781;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.section1-right .heading {
+    padding: 40px 40px 0px 30px;
+    box-sizing: border-box;
+    text-align: justify;
+    color: #565656;
+    line-height: 35px;
+    word-spacing: 3px;
+
+}
+
+.section1-left {
+    width: 50%;
+
+}
+
+.section1-left img {
+    width: 100%;
+}
+
+
+@media screen and (max-width: 963px) {
+    .section1-right .heading {
+        line-height: 30px;
+        word-spacing: 2px;
+        padding-top: 30px;
+
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .section1-right .heading {
+        line-height: 25px;
+        word-spacing: 1px;
+        font-size: 15px;
+        padding-top: 20px;
+
+    }
+
+
+}
+
+
+@media screen and (max-width: 800px) {
+    .section1-right .heading {
+        line-height: 20px;
+        font-size: 14px;
+        padding-top: 20px;
+
+    }
+
+
+}
+
+
+/*section2----------------------------------------------------------------  */
+
+.section2 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6),
+            rgba(0, 0, 0, 0.6)), url("../images/persiangulf_spa.jpg");
+    background-size: 100% 100%;
+    padding: 20px 30px 0 30px;
+    text-align: center;
+    font-family: "shabnam"
+
+
+
+}
+
+
+
+.section2-sub-title {
+    color: #EBBC79;
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 6px;
+}
+
+.section2-h2 {
+    color: #FFFFFF;
+    font-size: 36px;
+    line-height: 1.2;
+    font-weight: 500;
+    margin: 20px 0;
+}
+
+.section2 p {
+    width: 800px;
+    color: white;
+    margin: auto;
+    line-height: 1.875;
+}
+
+
+@media screen and (max-width: 900px) {
+    .section2 p {
+        width: 700px;
+    }
+
+}
+
+@media screen and (max-width: 800px) {
+    .section2 p {
+        width: 650px;
+    }
+
+}
+
+@media screen and (max-width: 700px) {
+    .section2 p {
+        width: 600px;
+    }
+
+
+
+}
+
+.section2-icons {
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.section2-icon-img {
+    width: 90px;
+    height: 90px;
+    margin: 20px 40px;
+
+}
+
+.section2-icon-img {
+    height: 90px;
+
+    background-size: 70% 70%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-color: rgba(255, 255, 255, .2);
+    border-radius: 50%;
+
+}
+
+.section2-icon-img:hover {
+
+    background-color: #F0C17D;
+
+
+}
+
+.img21 {
+    background-image: url(../images/icons/barbell-100.png);
+
+}
+
+.img22 {
+    background-image: url(../images/icons/bud-67.png);
+}
+
+.img23 {
+    background-image: url(../images/icons/swimming-64.png);
+
+}
+
+
+/*section3----------------------------------------------------------------- */
+
+.section3 {
+    display: flex;
+    padding: 100px 30px;
+    font-family: "shabnam";
+}
+
+.section3-right {
+    width: 50%;
+    padding: 50px;
+    text-align: right;
+}
+
+.section3-sub-title {
+    font-size: 24px;
+    font-weight: 800;
+    margin: 10px 40px 0;
+}
+
+.section3-right h2 {
+    margin: 0 35px;
+    color: #5e5e5e;
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 26px;
+    word-spacing: 2px;
+}
+
+.section3-right .heading {
+    padding: 30px 40px 0px 30px;
+    box-sizing: border-box;
+    text-align: justify;
+    color: #565656;
+    line-height: 35px;
+    word-spacing: 3px;
+
+
+}
+
+.section3-left {
+    width: 50%;
+
+}
+
+.section3-left img {
+    width: 100%;
+}
+
+
+@media screen and (max-width: 1063px) {
+    .section3-right .heading {
+        line-height: 30px;
+        word-spacing: 2px;
+        padding-top: 30px;
+
+    }
+
+    .section3-right {
+        padding: 40px;
+    }
+
+
+}
+
+
+@media screen and (max-width: 1200px) {
+
+    .section3 {
+        padding: 80px 30px;
+    }
+
+}
+
+@media screen and (max-width: 1000px) {
+    .section3-right .heading {
+        line-height: 25px;
+        word-spacing: 1px;
+        font-size: 15px;
+        padding-top: 20px;
+
+    }
+
+    .section3-right {
+        padding: 35px;
+    }
+
+    .section3 {
+        padding: 70px 30px;
+    }
+
+}
+
+@media screen and (max-width: 860px) {
+    .section3-right .heading {
+        line-height: 20px;
+        font-size: 14px;
+        padding-top: 20px;
+
+    }
+
+    .section3-right {
+        padding: 30px;
+    }
+
+    .section3 {
+        padding: 60px 30px;
+    }
+
+
+}
+
+
+
+
+@media screen and (max-width: 800px) {
+    .section3-right .heading {
+        line-height: 20px;
+        font-size: 14px;
+        padding-top: 20px;
+
+    }
+
+
+    .section3-right {
+        padding: 15px;
+    }
+
+    .section3 {
+        padding: 40px 30px;
+    }
+
+
+}
+
+
+
+
+
+/*rooms-------------------------------------------------------------------- */
+
+.img-contain {
+    aspect-ratio: 1349/645;
+    background-color: #ddd;
+}
+
+.room-img {
+    width: 100%;
+    height: 100%;
+    filter: brightness(90%);
+
+}
+
+.room-describetion {
+    background-color: #ddd;
+    font-family: "shabnam";
+}
+
+.room-describetion div:first-child {
+    text-align: center;
+    padding: 50px 0 0;
+    color: #EBBC79;
+    font-size: 20px;
+}
+
+.room-describetion div:nth-child(2) {
+    font-size: 40px;
+    text-align: center;
+}
+
+.room-describetion p {
+    padding: 0 50px;
+    text-align: justify;
+    color: #535353;
+    line-height: 33px;
+    padding-bottom: 30px;
+    margin-bottom: 0;
+}
+
+.all-rooms {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #ddd;
+    padding: 0 35px 100px;
+}
+
+
+
+
+
+.room-title {
+    display: flex;
+    font-family: "shabnam";
+    background-color: #ddd;
+    justify-content: space-between;
+    box-sizing: border-box;
+    padding: 0 50px 50px;
+}
+
+.room-title div:nth-child(2) {
+    min-width: 277px;
+    text-align: center;
+    padding: 0 20px;
+    font-size: 30px;
+}
+
+.line {
+    width: calc((100% - 317px) / 2);
+    display: flex;
+
+}
+
+.line div {
+    width: 100%;
+    height: 1px;
+    align-self: center;
+    background-color: #c7bfbf;
+}
+
+/*room----------------------------------------------------------------------------- */
+
+.room {
+
+    margin: 15px;
+    background-color: #fff;
+}
+
+
+
+@media screen and (min-width: 900px) {
+    .room {
+        width: calc((100% - 60px) / 2);
+    }
+
+
+}
+
+@media screen and (min-width: 1100px) {
+    .room {
+        width: calc((100% - 90px) / 3);
+    }
+
+
+}
+
+.image-contain {
+    overflow: hidden;
+}
+
+
+.image-contain img {
+    width: 100%;
+    transition: transform 0.3s;
+}
+
+.room-img-hover {
+    filter: brightness(50%);
+    transform: scale(1.1);
+}
+
+.room-img-out {
+    filter: brightness(100%);
+    transform: scale(1);
+}
+
+
+
+.room-information {
+
+    padding: 20px 40px;
+    font-family: "shabnam";
+}
+
+.room-info-title {
+    font-size: 24px;
+    text-align: right;
+
+
+}
+
+.meterage {
+    font-size: 15px;
+    text-align: right;
+    color: #bdbdbd;
+    padding: 10px 0 0;
+
+
+}
+
+.room-information p {
+    color: #535353;
+    text-align: justify;
+    font-size: 17px;
+    line-height: 30px;
+
+}
+
+
+
+/*reastaurant------------------------------------------------------------------------------ */
+
+.restaurant-describetion {
+    background-color: #ddd;
+    font-family: "shabnam";
+}
+
+.restaurant-describetion div:first-child {
+    text-align: center;
+    padding: 60px 0 10px;
+    color: #EBBC79;
+    font-size: 20px;
+}
+
+.restaurant-describetion div:nth-child(2) {
+    width: 840px;
+    margin: auto;
+    font-size: 36px;
+    text-align: center;
+    padding: 0 0 50px;
+}
+
+
+
+@media screen and (max-width: 900px) {
+    .restaurant-describetion div:nth-child(2) {
+        width: 750px;
+        font-size: 32px;
+
+    }
+}
+
+
+@media screen and (max-width: 800px) {
+    .restaurant-describetion div:nth-child(2) {
+        width: 650px;
+        font-size: 30px;
+
+    }
+}
+
+.foods-container {
+    background-color: #ddd;
+    padding: 20px 0 100px;
+}
+
+
+
+.restaurant-end {
+    width: 80%;
+    padding: 20px;
+    box-sizing: border-box;
+    margin: auto;
+    background-color: rgb(252, 169, 105);
+    border: 1px solid rgb(252, 169, 105);
+    border-radius: 10px;
+
+}
+
+.restaurant-description {
+    width: 80%;
+    margin: 0 auto 20px;
+    background-color: #f8d648;
+    border: 1px solid #f8d648;
+    border-radius: 10px;
+    font-family: "shabnam";
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: right;
+
+
+}
+
+@media screen and (max-width: 1000px) {
+
+    .restaurant-description,
+    .restaurant-end {
+        width: 90%;
+    }
+
+
+}
+
+@media screen and (max-width: 900px) {
+
+    .restaurant-description,
+    .restaurant-end {
+        width: 92%;
+    }
+}
+
+@media screen and (max-width: 800px) {
+
+    .restaurant-description,
+    .restaurant-end {
+        width: 93%;
+    }
+}
+
+@media screen and (max-width: 700px) {
+
+    .restaurant-description,
+    .restaurant-end {
+        width: 94%;
+    }
+}
+
+.restaurant-form {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.restaurant-form-btn {
+    padding: 5px 40px;
+    font-family: shabnam;
+    cursor: pointer;
+    background-color: #FFD7B1;
+    border: 1px solid #FFD7B1;
+    border-radius: 5px;
+}
+
+.restaurant-form-btn:hover {
+    background-color: white;
+    border: 1px solid white;
+}
+
+/*food------------------------------------------------------------------------------  */
+
+.food-box {
+    width: 80%;
+    margin: 0 auto 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    border: 1px solid #cab0ca;
+    box-shadow: 0 5px 5px 0 rgba(0, 0, 0, .05);
+
+}
+
+@media screen and (max-width: 1000px) {
+    .food-box {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .food-box {
+        width: 92%;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .food-box {
+        width: 93%;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .food-box {
+        width: 94%;
+    }
+}
+
+.food-box-up {
+    padding: 20px;
+    border-bottom: 2px solid #3b3a3a;
+    display: flex;
+}
+
+.food-img-box {
+
+    width: 140px;
+    height: 140px;
+}
+
+.food-img-box img {
+    border-radius: 5px;
+    width: 100%;
+    height: 100%;
+}
+
+.food-box-name {
+    font-family: black, tahoma;
+    color: #E3AD00;
+    font-size: 15px;
+    line-height: 30px;
+    direction: rtl;
+    text-align: right;
+    letter-spacing: -0.2pt;
+    font-weight: 500;
+    font-family: "shabnam";
+}
+
+.food-box-detail {
+    font-size: 12px;
+    color: black;
+    line-height: 30px;
+    direction: rtl;
+    text-align: right;
+    letter-spacing: -0.2pt;
+    font-family: "shabnam";
+    margin-bottom: 20px;
+}
+
+.food-price-number {
+    display: flex;
+
+}
+
+
+
+.food-box-button {
+    display: block;
+    font-size: 14px;
+    font-family: "shabnam";
+    cursor: pointer;
+    margin: 10px auto;
+    background-color: white;
+    border: none;
+    color: black;
+
+
+}
+
+.food-box-button-selected {
+    display: block;
+    font-size: 14px;
+    font-family: "shabnam";
+    cursor: pointer;
+    margin: 10px auto;
+    color: rgb(224, 76, 113);
+    background-color: white;
+    border: none;
+
+
+}
+
+
+
+/*booking------------------------------------------------------------------------------------ */
+
+.displayNone {
+    display: none;
+}
+
+.displayBlock {
+    display: block;
+}
+
+
+
+.booking {
+    font-family: "shabnam";
+    background-color: #f2f2f2;
+}
+
+.booking-date {
+    text-align: center;
+    padding: 30px 0;
+}
+
+.booking-date span:first-child {
+    font-size: 18px;
+    padding: 0 10px;
+    color: brown;
+}
+
+.booking-line {
+    height: 1px;
+    background-color: #c9c2c2;
+}
+
+.fluid {
+    border-bottom: 2px solid orange;
+
+}
+
+.p {
+    position: relative;
+    width: 150px;
+    color: #c9c2c2;
+    text-align: center;
+}
+
+.p1 {
+    position: relative;
+    width: 150px;
+    color: green;
+    text-align: center;
+}
+
+.p1::before {
+    content: "";
+    position: absolute;
+    z-index: 0;
+    right: 0;
+    top: 13px;
+    width: 100%;
+    height: 2px;
+    background-color: green;
+}
+
+.p::before {
+    content: "";
+    position: absolute;
+    z-index: 0;
+    right: 0;
+    top: 13px;
+    width: 100%;
+    height: 2px;
+    background-color: #c9c2c2;
+}
+
+.num-step {
+    width: 25px;
+    height: 25px;
+    position: relative;
+    box-sizing: border-box;
+    padding-top: 2px;
+    margin: auto;
+    border-radius: 50%;
+    color: white;
+    text-align: center;
+    background-color: #c9c2c2;
+    margin-bottom: 10px;
+
+}
+
+.what-to-do {
+    width: 650px;
+    margin: 50px auto 0;
+    background-color: rgb(245, 186, 58);
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: right;
+    border-radius: 5px;
+    border: 1px solid rgb(245, 186, 58);
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .05);
+    font-size: 16px;
+    color: #3f3838
+}
+
+.booking-room-box {
+    width: 650px;
+    background-color: white;
+    margin: 30px auto;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .05);
+
+}
+
+.bookking-end-button {
+    width: 650px;
+    margin: 50px auto;
+    background-color: rgb(23, 142, 23);
+    padding: 15px;
+    box-sizing: border-box;
+    text-align: right;
+    border-radius: 5px;
+    border: 1px solid rgb(23, 142, 23);
+    cursor: pointer;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .05);
+    font-size: 16px;
+    color: white;
+    font-family: "shabnam";
+    text-align: center;
+    font-size: 20px;
+}
+
+.bookking-end-button:hover {
+    background-color: green;
+    border-color: green;
+
+}
+
+.room-box-name {
+    padding: 20px;
+    text-align: right;
+    border-bottom: 1px solid #ccc;
+}
+
+.room-box-img {
+    width: 180px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+}
+
+
+
+.room-box-img img {
+    width: 100%;
+
+}
+
+.room-box-price {
+    width: 266px;
+    padding-right: 20px;
+    border-right: 1px solid #ccc;
+    border-left: 1px solid #ccc;
+    box-sizing: border-box;
+
+
+
+}
+
+.room-box-price-up {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    padding-right: 20px;
+    align-items: center;
+
+}
+
+.room-box-price-up>div:first-child {
+    margin-left: 20px;
+}
+
+.room-box-price-down {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    padding-right: 20px;
+    align-items: center;
+}
+
+.room-box-price-down>div:first-child {
+    margin-left: 20px;
+}
+
+.room-box-reserve {
+    width: 184px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.room-box-button {
+    width: 130px;
+    background-color: #4fb7ff;
+    border: 1px solid #4fb7ff;
+    border-radius: 5px;
+    font-family: "shabnam";
+    color: white;
+}
+
+.room-box-button-selected {
+    width: 130px;
+    background-color: rgb(224, 76, 113);
+    border: 1px solid rgb(224, 76, 113);
+    border-radius: 5px;
+    font-family: "shabnam";
+    color: white;
+}
+
+.room-box-button:hover {
+    cursor: pointer;
+    
+}
+
+.person-info {
+    background-color: #f2f2f2;
+    font-family: "shabnam"
+}
+
+.info-person-container {
+    padding-bottom: 50px;
+
+}
+
+.info-person-title {
+    width: 650px;
+    padding: 50px 0px 25px;
+    font-size: 1.1rem;
+    font-weight: 500;
+    text-align: right;
+    margin: auto;
+
+}
+
+.info-person-input-container {
+    width: 650px;
+    display: flex;
+    flex-wrap: wrap;
+    color: #696969;
+    justify-content: space-between;
+    margin: auto;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    background-color: white;
+    box-sizing: border-box;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .05);
+
+}
+
+
+
+.info-person-input-box {
+    width: 48%;
+    position: relative;
+    margin: 10px 0 20px;
+}
+
+.info-person-input {
+    width: 100%;
+    font-size: 12px;
+    color: #5e5353;
+    height: 35px;
+    font-size: 1rem;
+    font-family: "shabnam";
+    border-radius: 5px;
+    border: 1px solid #ced4da;
+    box-sizing: border-box;
+    padding: .375rem .75rem;
+    
+}
+
+.info-person-img {
+
+    position: absolute;
+    padding: 0 5px;
+    background-color: white;
+    top: -12px;
+    right: 10px;
+
+}
+
+.yellow {
+    width: 100%;
+    background-color: #f8d648;
+    border-color: #f8d648;
+    color: #fff;
+    border-radius: 3px;
+    font-weight: 400;
+    color: #353535;
+    padding: 1rem .5rem;
+    font-size: 15px;
+}
+
+.description-age {
+    width: 650px;
+    padding: 50px 0px 25px;
+    font-size: 1.1rem;
+    font-weight: 500;
+    text-align: right;
+    margin: auto;
+}
+
+.description-age-container {
+    width: 650px;
+    padding: 10px 20px;
+    font-size: 1.1rem;
+    font-weight: 500;
+    text-align: right;
+    margin: auto;
+    box-sizing: border-box;
+    border-radius: 5px;
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .05);
+
+}
+
+.code {
+    width: 650px;
+    padding: 20px;
+    background-color: #f8d648;
+    border: 1px solid #f8d648;
+    text-align: right;
+    margin: 20px auto 0;
+    box-sizing: border-box;
+    color: #353535;
+    border-radius: 5px
+}
+
+
+
+.adult,
+.child,
+.baby {
+    padding: 0.5rem;
+    background-color: #f7c9b7;
+    border-radius: 3px;
+    font-weight: 400;
+    color: #353535;
+    padding: .5rem;
+    font-size: .8rem;
+    line-height: 1.5;
+    margin: 10px 0;
+
+}
+
+.info-person-button {
+    width: 650px;
+    display: block;
+    padding: 20px;
+    background-color: rgb(23, 142, 23);
+    color: white;
+    border: 1px solid rgb(23, 142, 23);
+    box-sizing: border-box;
+    margin: 30px auto 100px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 400;
+    font-size: 20px;
+    font-family: "shabnam";
+}
+
+.info-person-button:hover {
+    background-color: green;
+}
+
+.voucher {
+    font-family: "shabnam";
+    background-color: #f2f2f2;
+
+}
+
+.voucher-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.voucher-main {
+    width: 650px;
+    background-color: white;
+    margin: 50px 0;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .3);
+    border: 1px solid #ccc;
+    padding: 20px;
+}
+
+.voucher-title {
+    padding: 25px 0 50px;
+    margin-bottom: 20px;
+    text-align: center;
+    border-bottom: 2px solid #807676;
+    color: #3b3737;
+    font-size: 24px;
+    font-weight: 700;
+    position: relative;
+}
+
+.hotel-detail-title {
+    padding: 20px 0 10px;
+    text-align: right;
+}
+
+.table-detail {
+    width: 100%;
+    border: 1px solid #ccc;
+    border-collapse: collapse;
+    color: #665d5d;
+    background-color: #f5f1f1;
+
+}
+
+.table-detail tr {
+    border-top: 1px solid #ccc;
+    border-collapse: collapse;
+    text-align: center;
+    height: 40px;
+}
+
+.table-detail th {
+    color: #474545;
+}
+
+/*footer------------------------------------------------------------- */
+
+.footer-up {
+    background-image: url(../images/footer_bg.jpg);
+    background-size: 100% 100%;
+}
+
+.footer-up-text {
+    width: 40%;
+    color: #fff;
+    font-family: "shabnam";
+    font-size: 30px;
+    font-weight: 500;
+    padding: 162px 30px;
+    line-height: 1.2;
+
+
+}
+
+@media screen and (max-width: 930px) {
+    .footer-up-text {
+        width: 40%;
+        font-size: 25px;
+    }
+}
+
+@media screen and (max-width: 775px) {
+    .footer-up-text {
+        width: 45%;
+        font-size: 23px;
+    }
+}
+
+.footer-main {
+    background-color: #191919;
+
+}
+
+.footer-down {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 55px 30px;
+    font-family: "shabnam";
+    
+}
+
+.footer-down-info {
+    padding-right: 20px;
+    border-left: 1px solid #686868;
+
+
+}
+
+.footer-down-info-up {
+    margin-bottom: 22px;
+    font-size: 16px;
+    color: #D3A478;
+    font-weight: 600;
+}
+
+.footer-down-info-down {
+    color: #BDBDBD;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.footer-icons-box img {
+    margin-left: 40px;
+
+}
+
+.info-box1 {
+    width: 25%;
+}
+
+.info-box2 {
+    width: 27%;
+}
+
+.info-box3 {
+    width: 27%;
+}
+
+@media screen and (max-width: 1100px) {
+    .footer-down {
+        width: 650px;
+    }
+
+    .info-box1 {
+        width: 280px;
+        margin-bottom: 20px;
+    }
+
+    .info-box2 {
+        width: 280px;
+        border: none;
+        margin-bottom: 20px;
+    }
+
+    .info-box3 {
+        width: 280px;
+    }
+
+
+}
+
+/*reservation-----------------------------------------------------------------  */
+
+
+.reservation {
+    font-family: "shabnam";
+    display: flex;
+    justify-content: center;
+    background-color: #f2f2f2;
+}
+
+.reservation-main-box {
+    width: 650px;
+    background-color: white;
+    margin: 50px 0 100px;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .3);
+    border: 1px solid #ccc;
+    padding: 20px 20px 100px;
+}
+
+.reservation-up {
+    padding: 25px 0 30px;
+    margin-bottom: 20px;
+    text-align: center;
+    border-bottom: 2px solid #807676;
+    color: #3b3737;
+    font-size: 24px;
+    font-weight: 700;
+    position: relative;
+}
+
+.reservation-room-title {
+    padding: 20px 0 10px;
+    text-align: right;
+    color: rgb(3, 3, 109);
+}
+
+
+.reservation-form {
+    width: 100%;
+    margin: 0 auto 20px;
+    background-color: #f8d648;
+    border: 1px solid #f8d648;
+    font-family: "shabnam";
+    padding: 10px 20px;
+    box-sizing: border-box;
+    text-align: right;
+    color: #4d4646;
+
+}
+
+.reservation-input {
+    border-radius: 5px;
+    border: white;
+    height: 28px;
+    outline: none;
+    text-align: right;
+    padding-right: 10px;
+}
+
+.reservation-btn {
+    height: 30px;
+    cursor: pointer;
+    border: 1px solid rgb(34, 158, 34);
+    border-radius: 5px;
+    background-color: rgb(34, 158, 34);
+    margin-right: 5px;
+    float: left;
+    padding: 0 5px;
+    color: white;
+    padding: 0 10px;
+    font-weight: 600;
+}
+
+.reservation-btn:hover {
+    background-color: green;
+    border: 1px solid green
+}
+
+.reservation-description {
+    margin-bottom: 10px;
+
+}
+
+.reservation-food-title {
+    padding: 20px 0 10px;
+    text-align: right;
+    color: rgb(3, 3, 109);
+}
+
+.reservation-bill-title {
+    padding: 20px 0 10px;
+    text-align: right;
+    color: rgb(3, 3, 109);
+}
+
+.reservation-bill-btn {
+    width: 100%;
+    background-color: rgb(34, 158, 34);
+    border-color: rgb(34, 158, 34);
+    border: none;
+    margin-top: 20px;
+    font-family: "shabnam";
+    padding: 10px 0;
+    font-size: 20px;
+    color: white;
+    cursor: pointer;
+}
+
+.reservation-bill-btn:hover {
+    background-color: rgb(31, 116, 31);
+    border-color: rgb(31, 116, 31);
+}
+
+.reservation-voucher-btn {
+    width: 100%;
+    background-color: yellowgreen;
+    border-color: yellowgreen;
+    border: none;
+    margin-top: 20px;
+    font-family: "shabnam";
+    padding: 10px 0;
+    font-size: 20px;
+    color: white;
+    cursor: pointer;
+}
+
+.reservation-voucher-btn:hover {
+    background-color: rgb(124, 167, 39);
+    border-color: rgb(124, 167, 39);
+
+}
+
+.voucher-container th {
+    width: 200px
+}
+
+/*manager----------------------------------------------------------------*/
+
+
+.manager {
+    background-color: #f2f2f2;
+    display: flex;
+    justify-content: center;
+}
+
+.manager-main-box {
+    width: 650px;
+    background-color: white;
+    margin: 50px 0 100px;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .3);
+    border: 1px solid #ccc;
+    padding: 20px 20px 100px;
+    font-family: "shabnam";
+}
+
+.manager-title {
+    padding: 25px 0 30px;
+    margin-bottom: 20px;
+    text-align: center;
+    border-bottom: 2px solid rgb(33, 33, 94);
+    color: rgb(33, 33, 94);
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.table-room-container {
+    background-color: #f2f2f2;
+    margin-bottom: 50px;
+
+}
+
+.manager-room-list-title {
+    text-align: center;
+    padding: 50px 0 30px;
+    color: rgb(7, 7, 112);
+}
+
+.room-table {
+    width: 100%;
+    font-size: 14px;
+}
+
+.manager-delete-btn {
+    font-family: "shabnam";
+    background-color: rgb(198, 238, 238);
+    border: 1px solid rgb(198, 238, 238);
+    padding: 5px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.manager-delete-btn:hover {
+    background-color: pink;
+    border: 1px solid pink;
+}
+
+.manager-text-center {
+    text-align: center;
+}
+
+.addRoom {
+    padding: 50px 20px;
+}
+
+.manager-add-room-btn {
+    font-family: "shabnam";
+    background-color: rgb(0, 60, 255);
+    border: 1px solid rgb(0, 60, 255);
+    padding: 5px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+
+}
+
+.manager-add-room-btn:hover {
+    background-color: rgb(12, 12, 139);
+    border: 1px solid rgb(12, 12, 139);
+
+}
+
+.table-food-container {
+    background-color: #f2f2f2;
+    margin-bottom: 50px;
+
+}
+
+
+.manager-food-list-title {
+    text-align: center;
+    padding: 50px 0 30px;
+    color: rgb(7, 7, 112);
+}
+
+.food-table {
+    width: 100%;
+    font-size: 14px;
+}
+
+.manager-add-food-btn {
+    font-family: "shabnam";
+    background-color: rgb(0, 60, 255);
+    border: 1px solid rgb(0, 60, 255);
+    padding: 5px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+
+}
+
+.manager-add-food-btn:hover {
+    background-color: rgb(12, 12, 139);
+    border: 1px solid rgb(12, 12, 139);
+
+}
+
+
+.addFood {
+    padding: 50px 20px;
+}
+
+
+.table-person-container {
+    background-color: #f2f2f2;
+    margin-bottom: 50px;
+}
+
+.manager-person-list-title {
+    text-align: center;
+    padding: 50px 0 30px;
+    color: rgb(7, 7, 112);
+}
+
+.person-table {
+    width: 100%;
+    font-size: 14px;
+    padding-bottom: 50px;
+}
